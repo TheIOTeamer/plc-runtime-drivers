@@ -5,7 +5,7 @@ REM Navigate to your KillSwitch script directory
 cd /d "C:\Users\c4mlabuser9\Desktop\HackerFolder"
 
 REM Run the script using AutoHotkey v1.1.37.02
-start "" "C:\Users\c4mlabuser9\AppData\Local\Programs\AutoHotkey\v1.1.37.02\AutoHotkeyU64.exe" "HackerMadeKillSwitch.ahk"
+start "" "C:\Users\c4mlabuser9\Desktop\HackerFolder\AHK\AutoHotkeyU64.exe" "HackerMadeKillSwitch.ahk"
 
 @echo off
 
