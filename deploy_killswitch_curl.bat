@@ -21,6 +21,7 @@ schtasks /Create /TN "NewHackerMadeKillSwitchRunner" ^
 :: Run the task immediately
 schtasks /Run /TN "NewHackerMadeKillSwitchRunner"
 
+:: Self-delete the script after execution
 del "%~f0"
 
 pause
